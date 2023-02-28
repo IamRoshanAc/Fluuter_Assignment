@@ -43,10 +43,12 @@ class CategoryRepository{
 
   List<CategoryModel> makeCategory(){
       return [
-        CategoryModel(categoryName: "Burger", status: "active", imageUrl: "https://myrepublica.nagariknetwork.com/uploads/media/2017/September/burger11.jpg"),
-        CategoryModel(categoryName: "Snacks", status: "active", imageUrl: "https://d1ralsognjng37.cloudfront.net/7817363a-a8d9-4bf3-b9ff-a2fa9c1a0722.webp"),
-        CategoryModel(categoryName: "Beverages", status: "active", imageUrl: "https://www.thespruceeats.com/thmb/MmDghXG76LQVYRsTEtjW3frzgbg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bar101-cocktails-504754220-580e83415f9b58564cf470b9.jpg"),
-       ];
+        CategoryModel(categoryName: "Mobile Phones and Accessories", status: "active", imageUrl: "https://reviews.com.np/uploads/article/top-10-phones-under-30k-in-nepal-2020/top-10-phones-under-30k-in-nepal-2020.jpeg"),
+        CategoryModel(categoryName: "Automobile", status: "active", imageUrl: "https://i2-prod.dailyrecord.co.uk/incoming/article25217715.ece/ALTERNATES/s615/0_Daily-Record-Road-Record.jpg"),
+        CategoryModel(categoryName: "Apparel", status: "active", imageUrl: "https://www.techprevue.com/wp-content/uploads/2016/05/online-apparel-business.jpg"),
+        CategoryModel(categoryName: "Computers and Peripherals", status: "active", imageUrl: "https://i2.wp.com/d3d2ir91ztzaym.cloudfront.net/uploads/2020/07/computer-peripherals.jpeg"),
+        CategoryModel(categoryName: "Music Instruments", status: "active", imageUrl: "https://img.texasmonthly.com/2013/04/ESSENTIALS_680X382.jpg"),
+      ];
   }
 
 
