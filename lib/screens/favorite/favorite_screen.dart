@@ -85,7 +85,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                                 onPressed: (){
                                     removeFavorite(_authViewModel.favorites.firstWhere((element) => element.productId == e.id), e.id!);
                                 },
-                                  icon: Icon(Icons.delete_outlined, color: Colors.red,),
+                                  icon: Icon(Icons.delete_outlined, color: Colors.orange,),
                               ),
                               leading: ClipRRect(
                                   borderRadius: BorderRadius.circular(5),

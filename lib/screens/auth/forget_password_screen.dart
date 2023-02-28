@@ -82,6 +82,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     width: double.infinity,
                     child: ElevatedButton(
                         style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all(Colors.orange),
                           shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20), side: BorderSide(color: Colors.orange))),
                           padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.symmetric(vertical: 20)),
                         ),
